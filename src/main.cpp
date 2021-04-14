@@ -107,8 +107,6 @@ void loop()
 void process_sensors()
 {
 
-  //get temp simulation
- // int temp = random(1, 100);
   float temp = dht.readTemperature();
   float hum = dht.readHumidity(); 
  
@@ -134,9 +132,6 @@ void process_sensors()
   }
 
   prev_temp = temp;
-
-  //get humidity simulation
-  //int hum = random(1, 50);
 
 
   mqtt_data_doc["variables"][1]["last"]["value"] = hum;
