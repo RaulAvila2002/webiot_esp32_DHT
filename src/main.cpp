@@ -15,7 +15,7 @@ String webhook_pass = "pBZgQ8zfLF";
 String webhook_endpoint = "http://192.168.0.7:3001/api/getdevicecredentials";
 const char *mqtt_server = "192.168.0.7";
 
-//PINS
+//PINES DE SALIDA
 #define led 2
 
 #define DHTPIN 4  
